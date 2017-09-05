@@ -1,0 +1,26 @@
+//--------------------------------------------------------------
+//Typography
+//--------------------------------------------------------------
+
+html, body {
+    font-family: $ffRajdhani;
+    font-size: $defaultFontSize;
+}
+
+h1 {
+    font-size: 64px;
+    margin: 60px 0 40px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $dodgerBlue;
+}
+
+h2 {
+    font-size: 28px;
+    //font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: $dodgerBlue;
+    border-bottom: 1px dotted $dodgerBlue;
+}
+

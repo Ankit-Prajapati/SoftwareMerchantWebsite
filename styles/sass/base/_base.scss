@@ -1,0 +1,34 @@
+//--------------------------------------------------------------
+//Base
+//--------------------------------------------------------------
+
+img {
+    max-width: 100%;
+}
+
+.bottomMargin {
+    margin-bottom: 60px;
+}
+
+a.pdfButton {
+    padding: 5px 30px;
+    background-color: $dodgerBlue;
+    color: $white;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 1px solid $dodgerBlue;
+
+    span {
+        font-size: 16px;
+    }
+}
+
+a.pdfButton:hover {
+    padding: 5px 30px;
+    background-color: $white;
+    color: $dodgerBlue;
+    border: 1px solid $dodgerBlue;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 1s;
+}

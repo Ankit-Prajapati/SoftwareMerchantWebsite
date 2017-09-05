@@ -1,0 +1,12 @@
+//--------------------------------------------------------------
+//Mixins
+//--------------------------------------------------------------
+
+@mixin backgroundImage ($bgColor, $bgImage, $bgPX, $bgPY, $bgSize, $bgRepeat, $bgAttachment) {
+    background-color: $bgColor;
+    background-image: url($bgImage);
+    background-position: $bgPX $bgPY;
+    background-size: $bgSize;
+    background-repeat: $bgRepeat;
+    background-attachment: $bgAttachment;
+}

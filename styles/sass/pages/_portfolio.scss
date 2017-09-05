@@ -1,0 +1,41 @@
+//--------------------------------------------------------------
+//Portfolio
+//--------------------------------------------------------------
+
+
+#portfolioPG {
+    @include backgroundImage($darkGray, "../../images/trainingPGBG.jpeg", 50%, 50%, cover, no-repeat, fixed);
+    padding-top: 70px;
+    color: $white;
+
+    .overlay {
+        background: $trainingPGOverlay;
+    }
+
+    h2, h3 {
+        margin: 0;
+    }
+
+    h2 {
+        margin-top: 60px;
+    }
+
+    h3 {
+        color: $dodgerBlue;
+    }
+
+    h4 {
+        color: $darkGray;
+    }
+
+    .modal-body {
+        color: $black;
+    }
+
+    img.portfolioImg {
+        padding: 5px;
+        border: 1px solid $white;
+        border-radius: 4px;
+        margin: 30px 0;
+    }
+}

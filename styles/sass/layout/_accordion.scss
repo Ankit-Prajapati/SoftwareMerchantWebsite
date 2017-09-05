@@ -1,0 +1,67 @@
+//--------------------------------------------------------------
+//Accordion
+//--------------------------------------------------------------
+.panel {
+    border: none;
+    background-color: transparent;
+}
+
+.panel-default {
+    border-color: none;
+}
+
+.panel-default>.panel-heading {
+    color: $white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-color: $black;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: $black;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 18px;
+}
+
+.panel-title {
+    font-size: 18px;
+}
+
+.panel-title a{
+    display: block;
+    padding: 10px 15px;
+    margin: -10px -15px;
+}
+
+// #accordion .panel-title a, #accordion .panel-title  a {
+//     text-decoration: none;
+// }
+
+#accordion .panel-title  a:hover {
+    text-decoration: none;
+    color: $dodgerBlue;
+    transition: all 0.5s;
+}
+
+#accordion .panel-title a:focus{
+    text-decoration: none;
+}
+
+.panel-group {
+    margin-bottom: 60px;
+}
+
+.panel-group .panel {
+    margin-bottom: 15px;
+}
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: white;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}

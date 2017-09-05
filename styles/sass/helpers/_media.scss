@@ -1,0 +1,76 @@
+//--------------------------------------------------------------
+//Media Queries
+//--------------------------------------------------------------
+
+
+//Navigation
+@media (max-width: 767px) {
+
+    //Base
+    html, body {
+        font-size: 18px;
+    }
+
+    //Navigation Menu Bar
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #FFFFFF;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: $dodgerBlue;
+    }
+
+    //Carousel
+    .carousel-caption h3 {
+        font-size: 70px;
+        line-height: 90px;
+    }
+
+    .carousel-caption p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    //Team
+    #teamPG .teamItem {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .borderRight {
+        border-right: 1px solid #ffffff;
+    }
+
+    .borderTop {
+        border-top: 1px solid #ffffff;
+    }
+    
+    .navbar-nav > li > a {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    
+    //Navigation Menu
+    header .navbar-brand {
+        padding: 12px 15px;
+        height: 70px;
+    }
+
+    #smLogo {
+        height: 50px;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    //Team
+    #teamPG .teamItem {
+        text-align: center;
+    }
+}

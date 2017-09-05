@@ -1,0 +1,44 @@
+//--------------------------------------------------------------
+//Staffing
+//--------------------------------------------------------------
+
+
+#staffingPG {
+    @include backgroundImage($darkGray, "../../images/staffingPGBG.jpg", 50%, 50%, cover, no-repeat, fixed);
+    padding-top: 70px;
+    color: $white;
+
+    .overlay {
+        background: $staffingPGOverlay;
+    }
+
+    h2, h3 {
+        margin: 0;
+    }
+
+    h2 {
+        margin-top: 60px;
+    }
+
+    h3 {
+        margin-top: 6px;
+        margin-bottom: 20px;
+        color: $silver;
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            font-size: 16px;
+            line-height: 28px;
+
+            span {
+                font-size: 14px;
+                color: $green;
+            }
+        }
+    }
+
+
+}

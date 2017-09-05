@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "position": "IOS Developer",
+        "location": "Wayne, PA 19087",
+        "startDate": "2017-04-30",
+        "endDate": "2017-05-31",
+        "experience": "5 Years +",
+        "jobDescription": "IT Consulting company (Wayne, PA) seeks iOS & Android developer to design, develop, and implement business application software by using Xcode, Agile methodology, Oracle, SQL, Develops secure native Android and iOS applications in a fast-paced environment. Thoroughly understands and applies iOS - UIKit, MapKit, HealthKit, Foundation, CoreLocation, AudioToolkit, Core Data Frameworks for development methodology. Thoroughly understands Apple iOS Architecture standards, including all Information Security policies and procedures. Verifies all deliverables meet Methodology and Information Security requirements. Develops code that reuses objects, is well structured, includes sufficient comments, and is easy to maintain. Elevates code into the development, test, and Production environments on schedule. Provides follow up Production support when needed. Submits change control requests and documents. Participates in design, code, and test inspections throughout life cycle to identify issues and ensure methodology compliance. Submit resume to Software Merchant, Inc., 487 Devon Park Dr., Ste. 215, Wayne, PA 19087."
+    },
+    {
+        "id": 2,
+        "position": "Android Developer",
+        "location": "Wayne, PA 19087",
+        "startDate": "2017-04-30",
+        "endDate": "2017-05-31",
+        "experience": "3 Years +",
+        "jobDescription": "IT Consulting company (Wayne, PA) seeks iOS & Android developer to design, develop, and implement business application software by using Xcode, Agile methodology, Oracle, SQL, Develops secure native Android and iOS applications in a fast-paced environment. Thoroughly understands and applies iOS - UIKit, MapKit, HealthKit, Foundation, CoreLocation, AudioToolkit, Core Data Frameworks for development methodology. Thoroughly understands Apple iOS Architecture standards, including all Information Security policies and procedures. Verifies all deliverables meet Methodology and Information Security requirements. Develops code that reuses objects, is well structured, includes sufficient comments, and is easy to maintain. Elevates code into the development, test, and Production environments on schedule. Provides follow up Production support when needed. Submits change control requests and documents. Participates in design, code, and test inspections throughout life cycle to identify issues and ensure methodology compliance. Submit resume to Software Merchant, Inc., 487 Devon Park Dr., Ste. 215, Wayne, PA 19087."
+    },
+    {
+        "id": 3,
+        "position": "DotNet Developer",
+        "location": "Wayne, PA 19087",
+        "startDate": "2017-04-30",
+        "endDate": "2017-05-31",
+        "experience": "8 Years +",
+        "jobDescription": "IT Consulting company (Wayne, PA) seeks iOS & Android developer to design, develop, and implement business application software by using Xcode, Agile methodology, Oracle, SQL, Develops secure native Android and iOS applications in a fast-paced environment. Thoroughly understands and applies iOS - UIKit, MapKit, HealthKit, Foundation, CoreLocation, AudioToolkit, Core Data Frameworks for development methodology. Thoroughly understands Apple iOS Architecture standards, including all Information Security policies and procedures. Verifies all deliverables meet Methodology and Information Security requirements. Develops code that reuses objects, is well structured, includes sufficient comments, and is easy to maintain. Elevates code into the development, test, and Production environments on schedule. Provides follow up Production support when needed. Submits change control requests and documents. Participates in design, code, and test inspections throughout life cycle to identify issues and ensure methodology compliance. Submit resume to Software Merchant, Inc., 487 Devon Park Dr., Ste. 215, Wayne, PA 19087."
+    },
+    {
+        "id": 4,
+        "position": "UI/UX Developer",
+        "location": "Wayne, PA 19087",
+        "startDate": "2017-04-30",
+        "endDate": "2017-05-31",
+        "experience": "5 Years +",
+        "jobDescription": "IT Consulting company (Wayne, PA) seeks iOS & Android developer to design, develop, and implement business application software by using Xcode, Agile methodology, Oracle, SQL, Develops secure native Android and iOS applications in a fast-paced environment. Thoroughly understands and applies iOS - UIKit, MapKit, HealthKit, Foundation, CoreLocation, AudioToolkit, Core Data Frameworks for development methodology. Thoroughly understands Apple iOS Architecture standards, including all Information Security policies and procedures. Verifies all deliverables meet Methodology and Information Security requirements. Develops code that reuses objects, is well structured, includes sufficient comments, and is easy to maintain. Elevates code into the development, test, and Production environments on schedule. Provides follow up Production support when needed. Submits change control requests and documents. Participates in design, code, and test inspections throughout life cycle to identify issues and ensure methodology compliance. Submit resume to Software Merchant, Inc., 487 Devon Park Dr., Ste. 215, Wayne, PA 19087."
+    },
+    {
+        "id": 5,
+        "position": "Front End Developer",
+        "location": "Wayne, PA 19087",
+        "startDate": "2017-04-30",
+        "endDate": "2017-05-31",
+        "experience": "5 Years +",
+        "jobDescription": "IT Consulting company (Wayne, PA) seeks iOS & Android developer to design, develop, and implement business application software by using Xcode, Agile methodology, Oracle, SQL, Develops secure native Android and iOS applications in a fast-paced environment. Thoroughly understands and applies iOS - UIKit, MapKit, HealthKit, Foundation, CoreLocation, AudioToolkit, Core Data Frameworks for development methodology. Thoroughly understands Apple iOS Architecture standards, including all Information Security policies and procedures. Verifies all deliverables meet Methodology and Information Security requirements. Develops code that reuses objects, is well structured, includes sufficient comments, and is easy to maintain. Elevates code into the development, test, and Production environments on schedule. Provides follow up Production support when needed. Submits change control requests and documents. Participates in design, code, and test inspections throughout life cycle to identify issues and ensure methodology compliance. Submit resume to Software Merchant, Inc., 487 Devon Park Dr., Ste. 215, Wayne, PA 19087."
+    }
+]

@@ -1,0 +1,83 @@
+//--------------------------------------------------------------
+//Navigation
+//--------------------------------------------------------------
+
+#smLogo {
+    height: 64px;
+}
+
+.navbar {
+    min-height: 70px;
+}
+
+header {
+    .navbar-default {
+        background-color: $navBGColor;
+        border: none;
+    }
+
+    .navbar-brand {
+        padding: 4px 15px;
+        height: 70px;
+    }
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: $white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: $dodgerBlue;
+    transition: all 1s;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: $dodgerBlue;
+    background-color:  $navBGColorHover;
+    transition: all 1s;
+}
+
+.navbar-default .navbar-nav > li > a span {
+    font-size: 14px;
+}
+
+.dropdown-menu {
+    font-size: 18px;
+    background-color: $navBGColorHover;
+    background-clip: padding-box;
+    border: 1px solid $black;
+    border: 1px solid $black;
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 102, .175);
+}
+
+.dropdown-menu > li > a {
+    color: $white;
+    letter-spacing: 1px;
+}
+
+.dropdown-menu> li > a:focus, .dropdown-menu > li > a:hover {
+    color: $dodgerBlue;
+    background: none;
+    transition: all 1s;
+}
+
+.navbar-toggle {
+    border-radius: 0;
+}
+
+.menuBar {
+    color: $white;
+    font-size: 28px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: $dodgerBlue;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}

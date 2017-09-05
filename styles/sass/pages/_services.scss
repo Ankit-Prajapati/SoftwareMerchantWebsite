@@ -1,0 +1,51 @@
+//--------------------------------------------------------------
+//Services
+//--------------------------------------------------------------
+
+#service {
+    @include backgroundImage($darkGray, "../../images/serviceBG.jpeg", 50%, 70%, cover, no-repeat, fixed);
+    padding: 20px 0 100px;
+
+    h1 {
+        color: $white;
+        // color: transparent;
+        // background-color: #666666;
+        // -webkit-background-clip: text;
+        // -moz-background-clip: text;
+        // background-clip: text;
+        // text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+    }
+
+    h2 {
+        color: $white;
+        border-bottom: 1px solid #AAAAAA;
+    }
+
+    p {
+        padding: 10px 10px 20px 0;
+        text-align: justify;
+        color: $white;
+    }
+
+    a.readMore {
+        display: block;
+        float: right;
+        padding: 6px 8px 4px;
+        margin-top: 20px;
+        color: $darkGray;
+        font-size: 14px;
+        border-radius: 8px; 
+        background-color: $white;
+        transition: all 1s;
+    }
+
+    a.readMore .glyphicon {
+        font-size: 12px;
+    }
+
+    a:hover {
+        background-color: $darkGray;
+        color: $white;
+        text-decoration: none;
+    }
+}

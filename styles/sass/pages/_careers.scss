@@ -1,0 +1,44 @@
+//--------------------------------------------------------------
+//Careers
+//--------------------------------------------------------------
+
+
+#careerPG {
+    @include backgroundImage($white, "../../images/careerPGBG.jpeg", 50%, 50%, cover, no-repeat, fixed);
+    padding-top: 70px;
+    color: $white;
+
+    .overlay {
+        background: $careerPGOverlay;
+    }
+
+    h2 {
+        margin-top: 50px;
+    }
+
+    #accordion .panel-body .dl-horizontal dt {
+        font-weight: normal;
+        color: $dodgerBlue;
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            font-size: 16px;
+            line-height: 28px;
+
+            span {
+                font-size: 14px;
+                color: green;
+            }
+        }
+    }
+
+    a.email:hover {
+        text-decoration: none;
+        border-bottom: 1px solid $royalBlue;
+        color: $royalBlue;
+        transition: all 1s;
+    }
+}

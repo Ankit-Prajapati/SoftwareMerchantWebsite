@@ -1,0 +1,44 @@
+//--------------------------------------------------------------
+//Consulting
+//--------------------------------------------------------------
+
+
+#consultingPG {
+    @include backgroundImage($darkGray, "../../images/consultingPGBG.jpg", 50%, 50%, cover, no-repeat, fixed);
+    padding-top: 70px;
+    color: $white;
+
+    .overlay {
+        background: $consultingPGOverlay
+    }
+
+    h2, h3 {
+        margin: 0;
+        //padding: 0;
+    }
+
+    h2 {
+        margin-top: 60px;
+    }
+
+    h3 {
+        margin-top: 6px;
+        margin-bottom: 20px;
+        color: $black;
+    }
+
+    ul {
+        list-style-type: none;
+        margin-top: 15px;
+
+        li {
+            font-size: 16px;
+            line-height: 28px;
+
+            span {
+                font-size: 14px;
+                color: $green;
+            }
+        }
+    }
+}

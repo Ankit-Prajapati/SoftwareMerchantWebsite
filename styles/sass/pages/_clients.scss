@@ -1,0 +1,44 @@
+//--------------------------------------------------------------
+//Clients
+//--------------------------------------------------------------
+
+#clients {
+    @include backgroundImage($white, "../../images/clientsBG.png", top, left, auto, repeat, fixed);    
+    padding: 20px 0 100px;
+
+    h1 {
+        color: $dodgerBlue;
+    }
+}
+
+.clientsContainer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.clientItem {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+
+    img {
+        /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+        filter: gray; /* IE5+ */
+        -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+        -webkit-transition: all .5s;
+        transition: all .5s;
+    }
+
+    img:hover {
+        filter: none;
+        -webkit-filter: grayscale(0);
+        -webkit-transform: scale(1.02);
+        transform: scale(1.02);
+    }
+}

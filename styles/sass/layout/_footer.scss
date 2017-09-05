@@ -1,0 +1,85 @@
+//--------------------------------------------------------------
+//Footer
+//--------------------------------------------------------------
+
+#contactHP {
+    @include backgroundImage($black, "../../images/footerBG.png", top, left, auto, repeat, fixed);
+    padding: 40px 0 20px;
+
+    h2 {
+        color: $dodgerBlue;
+    }
+
+    p {
+        color: $white;
+        line-height: 36px;
+    }
+
+    a.mail {
+        text-decoration: none;
+        color: $white;
+        transition: all 1s ease-in-out;
+    }
+
+    a.mail:hover {
+        color: $dodgerBlue;
+    }
+}
+
+#contactHP { 
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    ul li a {
+        color: $white;
+        line-height: 36px;
+        text-decoration: none;
+    }
+
+    ul li a:hover {
+        color: $dodgerBlue;
+        border-bottom: 1px dotted $dodgerBlue;
+        transition: all 1s;
+        text-decoration: none;
+    }
+}
+
+#social {
+    padding-top: 40px;
+
+    a {
+        border: none;
+        text-decoration: none;
+    }
+
+    span {
+        margin: 25px 10px 55px 10px;
+        font-size: 30px;
+        color: $dodgerBlue;
+        border: 1px solid $dodgerBlue;
+        width: 48px;
+        height: 48px;
+        line-height: 46px;
+        border-radius: 4px;
+        transition: all 1s ease-in-out;
+    }
+
+    span:hover {
+        color: $white;
+        background-color: $dodgerBlue;
+        border: 1px solid $dodgerBlue;
+    }
+}
+
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    background-color: $black;
+    color: $dodgerBlue;
+    font-size: 22px;
+    letter-spacing: 1px;
+    border-top: 1px solid $dodgerBlue;
+}
