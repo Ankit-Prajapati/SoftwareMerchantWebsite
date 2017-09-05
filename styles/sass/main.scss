@@ -9,9 +9,9 @@
 //Layout
 @import "layout/_navigation.scss";
 @import "layout/_footer.scss";
-@import "layout/_accordion.scss";
 
 //Components
+@import "components/_accordion.scss";
 @import "components/_carousel.scss"; 
 
 //Pages
@@ -28,4 +28,4 @@
 @import "pages/_portfolio.scss";
 
 //Media Queries
-@import "helpers/_media.scss";
+@import "helpers/_mediaQueries.scss";
