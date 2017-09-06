@@ -247,44 +247,44 @@ footer {
   border-top: 1px solid #1E90FF;
 }
 
-/* line 4, ../sass/layout/_accordion.scss */
+/* line 4, ../sass/components/_accordion.scss */
 .panel {
   border: none;
   background-color: transparent;
 }
 
-/* line 9, ../sass/layout/_accordion.scss */
+/* line 9, ../sass/components/_accordion.scss */
 .panel-default {
   border-color: none;
 }
 
-/* line 13, ../sass/layout/_accordion.scss */
+/* line 13, ../sass/components/_accordion.scss */
 .panel-default > .panel-heading {
   color: #FFFFFF;
   background-color: rgba(0, 0, 0, 0.8);
   border-color: #000000;
 }
 
-/* line 19, ../sass/layout/_accordion.scss */
+/* line 19, ../sass/components/_accordion.scss */
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #000000;
   background-color: rgba(0, 0, 0, 0.4);
   font-size: 18px;
 }
 
-/* line 25, ../sass/layout/_accordion.scss */
+/* line 25, ../sass/components/_accordion.scss */
 .panel-title {
   font-size: 18px;
 }
 
-/* line 29, ../sass/layout/_accordion.scss */
+/* line 29, ../sass/components/_accordion.scss */
 .panel-title a {
   display: block;
   padding: 10px 15px;
   margin: -10px -15px;
 }
 
-/* line 39, ../sass/layout/_accordion.scss */
+/* line 39, ../sass/components/_accordion.scss */
 #accordion .panel-title a:hover {
   text-decoration: none;
   color: #1E90FF;
@@ -292,22 +292,22 @@ footer {
   transition: all 0.5s;
 }
 
-/* line 45, ../sass/layout/_accordion.scss */
+/* line 45, ../sass/components/_accordion.scss */
 #accordion .panel-title a:focus {
   text-decoration: none;
 }
 
-/* line 49, ../sass/layout/_accordion.scss */
+/* line 49, ../sass/components/_accordion.scss */
 .panel-group {
   margin-bottom: 60px;
 }
 
-/* line 53, ../sass/layout/_accordion.scss */
+/* line 53, ../sass/components/_accordion.scss */
 .panel-group .panel {
   margin-bottom: 15px;
 }
 
-/* line 57, ../sass/layout/_accordion.scss */
+/* line 57, ../sass/components/_accordion.scss */
 .panel-heading .accordion-toggle:after {
   /* symbol for "opening" panels */
   font-family: 'Glyphicons Halflings';
@@ -320,7 +320,7 @@ footer {
   /* adjust as needed */
 }
 
-/* line 64, ../sass/layout/_accordion.scss */
+/* line 64, ../sass/components/_accordion.scss */
 .panel-heading .accordion-toggle.collapsed:after {
   /* symbol for "collapsed" panels */
   content: "\e080";
@@ -388,21 +388,21 @@ footer {
   opacity: 1;
 }
 
-/* line 7, ../sass/pages/_about.scss */
+/* line 6, ../sass/pages/_about.scss */
 #aboutHP {
   background-color: #1E90FF;
   padding: 20px 0 100px;
 }
-/* line 11, ../sass/pages/_about.scss */
+/* line 10, ../sass/pages/_about.scss */
 #aboutHP h1, #aboutHP p {
   color: #FFFFFF;
 }
-/* line 15, ../sass/pages/_about.scss */
+/* line 14, ../sass/pages/_about.scss */
 #aboutHP p:last-child {
   padding-bottom: 20px;
 }
 
-/* line 22, ../sass/pages/_about.scss */
+/* line 21, ../sass/pages/_about.scss */
 #aboutPG {
   background-color: #333333;
   background-image: url("../../images/aboutPGBG.jpg");
@@ -413,15 +413,15 @@ footer {
   padding-top: 70px;
   color: #FFFFFF;
 }
-/* line 27, ../sass/pages/_about.scss */
+/* line 26, ../sass/pages/_about.scss */
 #aboutPG .overlay {
   background: rgba(30, 30, 30, 0.6);
 }
-/* line 31, ../sass/pages/_about.scss */
+/* line 30, ../sass/pages/_about.scss */
 #aboutPG p:last-child {
   margin-bottom: 60px;
 }
-/* line 35, ../sass/pages/_about.scss */
+/* line 34, ../sass/pages/_about.scss */
 #aboutPG h2 {
   margin-top: 40px;
 }
@@ -694,7 +694,7 @@ footer {
   border: 5px solid #000000;
 }
 
-/* line 6, ../sass/pages/_careers.scss */
+/* line 5, ../sass/pages/_careers.scss */
 #careerPG {
   background-color: #FFFFFF;
   background-image: url("../../images/careerPGBG.jpeg");
@@ -705,34 +705,34 @@ footer {
   padding-top: 70px;
   color: #FFFFFF;
 }
-/* line 11, ../sass/pages/_careers.scss */
+/* line 10, ../sass/pages/_careers.scss */
 #careerPG .overlay {
   background: rgba(30, 30, 30, 0.7);
 }
-/* line 15, ../sass/pages/_careers.scss */
+/* line 14, ../sass/pages/_careers.scss */
 #careerPG h2 {
   margin-top: 50px;
 }
-/* line 19, ../sass/pages/_careers.scss */
+/* line 18, ../sass/pages/_careers.scss */
 #careerPG #accordion .panel-body .dl-horizontal dt {
   font-weight: normal;
   color: #1E90FF;
 }
-/* line 24, ../sass/pages/_careers.scss */
+/* line 23, ../sass/pages/_careers.scss */
 #careerPG ul {
   list-style-type: none;
 }
-/* line 27, ../sass/pages/_careers.scss */
+/* line 26, ../sass/pages/_careers.scss */
 #careerPG ul li {
   font-size: 16px;
   line-height: 28px;
 }
-/* line 31, ../sass/pages/_careers.scss */
+/* line 30, ../sass/pages/_careers.scss */
 #careerPG ul li span {
   font-size: 14px;
   color: green;
 }
-/* line 38, ../sass/pages/_careers.scss */
+/* line 37, ../sass/pages/_careers.scss */
 #careerPG a.email:hover {
   text-decoration: none;
   border-bottom: 1px solid #0080FF;
@@ -741,7 +741,7 @@ footer {
   transition: all 1s;
 }
 
-/* line 6, ../sass/pages/_consulting.scss */
+/* line 5, ../sass/pages/_consulting.scss */
 #consultingPG {
   background-color: #333333;
   background-image: url("../../images/consultingPGBG.jpg");
@@ -752,41 +752,41 @@ footer {
   padding-top: 70px;
   color: #FFFFFF;
 }
-/* line 11, ../sass/pages/_consulting.scss */
+/* line 10, ../sass/pages/_consulting.scss */
 #consultingPG .overlay {
   background: rgba(30, 30, 30, 0.6);
 }
-/* line 15, ../sass/pages/_consulting.scss */
+/* line 14, ../sass/pages/_consulting.scss */
 #consultingPG h2, #consultingPG h3 {
   margin: 0;
 }
-/* line 20, ../sass/pages/_consulting.scss */
+/* line 19, ../sass/pages/_consulting.scss */
 #consultingPG h2 {
   margin-top: 60px;
 }
-/* line 24, ../sass/pages/_consulting.scss */
+/* line 23, ../sass/pages/_consulting.scss */
 #consultingPG h3 {
   margin-top: 6px;
   margin-bottom: 20px;
   color: #000000;
 }
-/* line 30, ../sass/pages/_consulting.scss */
+/* line 29, ../sass/pages/_consulting.scss */
 #consultingPG ul {
   list-style-type: none;
   margin-top: 15px;
 }
-/* line 34, ../sass/pages/_consulting.scss */
+/* line 33, ../sass/pages/_consulting.scss */
 #consultingPG ul li {
   font-size: 16px;
   line-height: 28px;
 }
-/* line 38, ../sass/pages/_consulting.scss */
+/* line 37, ../sass/pages/_consulting.scss */
 #consultingPG ul li span {
   font-size: 14px;
   color: green;
 }
 
-/* line 6, ../sass/pages/_staffing.scss */
+/* line 5, ../sass/pages/_staffing.scss */
 #staffingPG {
   background-color: #333333;
   background-image: url("../../images/staffingPGBG.jpg");
@@ -797,34 +797,34 @@ footer {
   padding-top: 70px;
   color: #FFFFFF;
 }
-/* line 11, ../sass/pages/_staffing.scss */
+/* line 10, ../sass/pages/_staffing.scss */
 #staffingPG .overlay {
   background: rgba(30, 30, 30, 0.8);
 }
-/* line 15, ../sass/pages/_staffing.scss */
+/* line 14, ../sass/pages/_staffing.scss */
 #staffingPG h2, #staffingPG h3 {
   margin: 0;
 }
-/* line 19, ../sass/pages/_staffing.scss */
+/* line 18, ../sass/pages/_staffing.scss */
 #staffingPG h2 {
   margin-top: 60px;
 }
-/* line 23, ../sass/pages/_staffing.scss */
+/* line 22, ../sass/pages/_staffing.scss */
 #staffingPG h3 {
   margin-top: 6px;
   margin-bottom: 20px;
   color: #AAAAAA;
 }
-/* line 29, ../sass/pages/_staffing.scss */
+/* line 28, ../sass/pages/_staffing.scss */
 #staffingPG ul {
   list-style-type: none;
 }
-/* line 32, ../sass/pages/_staffing.scss */
+/* line 31, ../sass/pages/_staffing.scss */
 #staffingPG ul li {
   font-size: 16px;
   line-height: 28px;
 }
-/* line 36, ../sass/pages/_staffing.scss */
+/* line 35, ../sass/pages/_staffing.scss */
 #staffingPG ul li span {
   font-size: 14px;
   color: green;
@@ -897,7 +897,7 @@ p.courseDesc {
   text-align: justify;
 }
 
-/* line 6, ../sass/pages/_casestudies.scss */
+/* line 5, ../sass/pages/_casestudies.scss */
 #caseStudiesPG {
   background-color: #FFFFFF;
   background-image: url("../../images/casestudiesPGBG.jpeg");
@@ -908,28 +908,28 @@ p.courseDesc {
   padding-top: 70px;
   color: #FFFFFF;
 }
-/* line 11, ../sass/pages/_casestudies.scss */
+/* line 10, ../sass/pages/_casestudies.scss */
 #caseStudiesPG .overlay {
   background: rgba(30, 30, 30, 0.8);
 }
-/* line 15, ../sass/pages/_casestudies.scss */
+/* line 14, ../sass/pages/_casestudies.scss */
 #caseStudiesPG h2 {
   margin-top: 50px;
 }
-/* line 21, ../sass/pages/_casestudies.scss */
+/* line 20, ../sass/pages/_casestudies.scss */
 #caseStudiesPG .panel .panel-body img {
   float: left;
   margin-right: 20px;
   height: 275px;
   max-width: auto;
 }
-/* line 29, ../sass/pages/_casestudies.scss */
+/* line 28, ../sass/pages/_casestudies.scss */
 #caseStudiesPG .panel .panel-heading h4 i {
   font-size: 14px;
   color: green;
 }
 
-/* line 6, ../sass/pages/_portfolio.scss */
+/* line 5, ../sass/pages/_portfolio.scss */
 #portfolioPG {
   background-color: #333333;
   background-image: url("../../images/trainingPGBG.jpeg");
@@ -940,31 +940,31 @@ p.courseDesc {
   padding-top: 70px;
   color: #FFFFFF;
 }
-/* line 11, ../sass/pages/_portfolio.scss */
+/* line 10, ../sass/pages/_portfolio.scss */
 #portfolioPG .overlay {
   background: rgba(30, 30, 30, 0.8);
 }
-/* line 15, ../sass/pages/_portfolio.scss */
+/* line 14, ../sass/pages/_portfolio.scss */
 #portfolioPG h2, #portfolioPG h3 {
   margin: 0;
 }
-/* line 19, ../sass/pages/_portfolio.scss */
+/* line 18, ../sass/pages/_portfolio.scss */
 #portfolioPG h2 {
   margin-top: 60px;
 }
-/* line 23, ../sass/pages/_portfolio.scss */
+/* line 22, ../sass/pages/_portfolio.scss */
 #portfolioPG h3 {
   color: #1E90FF;
 }
-/* line 27, ../sass/pages/_portfolio.scss */
+/* line 26, ../sass/pages/_portfolio.scss */
 #portfolioPG h4 {
   color: #333333;
 }
-/* line 31, ../sass/pages/_portfolio.scss */
+/* line 30, ../sass/pages/_portfolio.scss */
 #portfolioPG .modal-body {
   color: #000000;
 }
-/* line 35, ../sass/pages/_portfolio.scss */
+/* line 34, ../sass/pages/_portfolio.scss */
 #portfolioPG img.portfolioImg {
   padding: 5px;
   border: 1px solid #FFFFFF;
@@ -973,77 +973,76 @@ p.courseDesc {
 }
 
 @media (max-width: 767px) {
-  /* line 10, ../sass/helpers/_media.scss */
+  /* line 8, ../sass/helpers/_mediaQueries.scss */
   html, body {
     font-size: 18px;
   }
 
-  /* line 15, ../sass/helpers/_media.scss */
+  /* line 13, ../sass/helpers/_mediaQueries.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #FFFFFF;
   }
 
-  /* line 19, ../sass/helpers/_media.scss */
+  /* line 17, ../sass/helpers/_mediaQueries.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
     color: #1E90FF;
   }
 
-  /* line 24, ../sass/helpers/_media.scss */
+  /* line 22, ../sass/helpers/_mediaQueries.scss */
   .carousel-caption h3 {
     font-size: 70px;
     line-height: 90px;
   }
 
-  /* line 29, ../sass/helpers/_media.scss */
+  /* line 27, ../sass/helpers/_mediaQueries.scss */
   .carousel-caption p {
     font-size: 30px;
     line-height: 40px;
   }
 
-  /* line 35, ../sass/helpers/_media.scss */
+  /* line 33, ../sass/helpers/_mediaQueries.scss */
   #teamPG .teamItem {
     text-align: center;
   }
 }
 @media (min-width: 768px) {
-  /* line 41, ../sass/helpers/_media.scss */
+  /* line 39, ../sass/helpers/_mediaQueries.scss */
   .borderRight {
     border-right: 1px solid #ffffff;
   }
 
-  /* line 45, ../sass/helpers/_media.scss */
+  /* line 43, ../sass/helpers/_mediaQueries.scss */
   .borderTop {
     border-top: 1px solid #ffffff;
   }
 
-  /* line 49, ../sass/helpers/_media.scss */
+  /* line 47, ../sass/helpers/_mediaQueries.scss */
   .navbar-nav > li > a {
     padding-top: 25px;
     padding-bottom: 25px;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-  /* line 58, ../sass/helpers/_media.scss */
+  /* line 56, ../sass/helpers/_mediaQueries.scss */
   header .navbar-brand {
     padding: 12px 15px;
     height: 70px;
   }
 
-  /* line 63, ../sass/helpers/_media.scss */
+  /* line 61, ../sass/helpers/_mediaQueries.scss */
   #smLogo {
     height: 50px;
   }
 
-  /* line 67, ../sass/helpers/_media.scss */
+  /* line 65, ../sass/helpers/_mediaQueries.scss */
   .navbar-default .navbar-nav > li > a {
     letter-spacing: 1px;
     font-size: 14px;
   }
 
-  /* line 73, ../sass/helpers/_media.scss */
+  /* line 71, ../sass/helpers/_mediaQueries.scss */
   #teamPG .teamItem {
     text-align: center;
   }
 }
-
 /*# sourceMappingURL=main.css.map */
