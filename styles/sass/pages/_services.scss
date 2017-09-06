@@ -3,8 +3,12 @@
 //--------------------------------------------------------------
 
 #service {
-    @include backgroundImage($darkGray, "../../images/serviceBG.jpeg", 50%, 70%, cover, no-repeat, fixed);
-    padding: 20px 0 100px;
+    @include backgroundImage($darkGray, "../../images/serviceBG.jpeg", 50%, 80%, cover, no-repeat, fixed);
+    
+
+    .overlay {
+        padding: 20px 0 100px;
+    }
 
     h1 {
         color: $white;

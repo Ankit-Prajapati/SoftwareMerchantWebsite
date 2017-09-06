@@ -25,52 +25,13 @@
         // border-bottom: 1px dotted $dodgerBlue;
         color: $dodgerBlue;
     }
-}
 
-#myLocation {
-    margin: 25px 0;
-    width: 100%;
-    height: 450px;
-    background-color: $white;
-}
+    span {
+        color:$white;
+        display: inline-block;
+        margin-right: 15px;
+    }
 
-#contactPG table {
-    color: $white;
-}
-
-.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
-    border-top: none;
-}
-
-#contactPG table tr td.heading {
-    color: $white;
-    text-transform: uppercase;
-}
-
-#contactPG table tr td.heading, #contactPG table tr td.details {
-    border-bottom: 1px solid #AAAAAA;
-}
-
-#contactPG table tr a {
-    text-decoration: none;
-    color: $white;
-}
-
-#contactPG table td {
-    padding: 15px 0;
-}
-
-#contactPG span {
-    color:$white;
-    display: inline-block;
-    margin-right: 15px;
-}
-
-#contactPG table td.phone {
-    border-bottom: 1px dotted #CCCCCC;
-}
-
-#contactPG { 
     .form-group {
         margin-bottom: 20px;
     }
@@ -109,5 +70,44 @@
         //background-color: rgba(0, 0, 0, 0.8);
         border: 1px solid $dodgerBlue;
         color: $dodgerBlue;
+    }
+}
+
+#myLocation {
+    margin: 25px 0;
+    width: 100%;
+    height: 450px;
+    background-color: $white;
+}
+
+#contactPG table {
+    color: $white;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border-top: none;
+}
+
+#contactPG table tr {
+    td {
+        padding: 15px 0;
+    }
+
+    td.heading {
+        color: $white;
+        text-transform: uppercase;
+    }
+
+    td.heading, td.details {
+        border-bottom: 1px solid #AAAAAA;
+    }
+
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+
+    td.phone {
+        border-bottom: 1px dotted #CCCCCC;
     }
 }
