@@ -6,7 +6,20 @@
 
     //Base
     html, body {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    //Typography
+    h1 {
+        font-size: 50px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
     }
 
     //Navigation Menu Bar
@@ -29,9 +42,79 @@
         line-height: 40px;
     }
 
+    //"Background-Attachment: Fixed": Bug Fix for IOS
+    #service {
+        @include backgroundImage($darkGray, "../../images/serviceBG.jpeg", 68%, 100%, cover, no-repeat, scroll);
+    }
+    
+    #aboutPG {
+        @include backgroundImage($darkGray, "../../images/aboutPGBG.jpg", 50%, 40%, cover, no-repeat, scroll);
+    }
+
+    #teamPG {
+        @include backgroundImage($darkGray, "../../images/teamPGBG.jpeg", 50%, 50%, cover, no-repeat, scroll);
+    }
+
+    #careerPG {
+        @include backgroundImage($white, "../../images/careerPGBG.jpeg", 50%, 50%, cover, no-repeat, scroll);
+    }
+
+    #consultingPG {
+        @include backgroundImage($darkGray, "../../images/consultingPGBG.jpg", 50%, 50%, cover, no-repeat, scroll);
+    }
+
+    #staffingPG {
+        @include backgroundImage($darkGray, "../../images/staffingPGBG.jpg", 50%, 50%, cover, no-repeat, scroll);
+    }
+
+    #trainingPG {
+        @include backgroundImage($darkGray, "../../images/trainingPGBG.jpeg", 50%, 50%, cover, no-repeat, scroll);
+    }
+
+    #portfolioPG {
+        @include backgroundImage($darkGray, "../../images/trainingPGBG.jpeg", 50%, 50%, cover, no-repeat, scroll);
+    }
+
+    #caseStudiesPG {
+        @include backgroundImage($white, "../../images/casestudiesPGBG.jpeg", 50%, 50%, cover, no-repeat, scroll);
+    }
+
+    #contactPG {
+        @include backgroundImage($darkGray, "../../images/contactPGBG.jpeg", 50%, 50%, cover, no-repeat, scroll);
+    }
+
     //Team
     #teamPG .teamItem {
         text-align: center;
+    }
+
+    //Service
+    #service {
+        .overlay {
+            background: $serviceHPOverlayForSM;
+            padding: 20px 0 100px;
+        }
+    }
+
+    //Training
+    #trainingPG img {
+        height: 56px;
+    }
+
+    //Contact
+    #contactPG {
+
+        span {
+            margin-right: 2px;
+        }
+
+        table tr td.heading {
+            width: 30%;
+        }
+
+        table tr td.heading, #contactPG table tr td.phone, #contactPG table tr td.details {
+            font-size: 12px;
+        }   
     }
 }
 

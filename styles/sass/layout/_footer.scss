@@ -15,6 +15,16 @@
         line-height: 36px;
     }
 
+    a.phone {
+        text-decoration: none;
+        color: $white;
+        transition: all 1s ease-in-out;
+    }
+
+    a.phone:hover {
+        color: $dodgerBlue;
+    }
+
     a.mail {
         text-decoration: none;
         color: $white;

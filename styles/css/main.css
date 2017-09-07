@@ -37,12 +37,12 @@ a.pdfButton:hover {
 /* line 5, ../sass/base/_typography.scss */
 html, body {
   font-family: Rajdhani, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* line 10, ../sass/base/_typography.scss */
 h1 {
-  font-size: 64px;
+  font-size: 60px;
   margin: 60px 0 40px 0;
   font-weight: bold;
   text-transform: uppercase;
@@ -56,6 +56,11 @@ h2 {
   text-transform: uppercase;
   color: #1E90FF;
   border-bottom: 1px dotted #1E90FF;
+}
+
+/* line 27, ../sass/base/_typography.scss */
+h3 {
+  font-size: 24px;
 }
 
 /* line 5, ../sass/layout/_navigation.scss */
@@ -170,28 +175,39 @@ navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:
   line-height: 36px;
 }
 /* line 18, ../sass/layout/_footer.scss */
-#contactHP a.mail {
+#contactHP a.phone {
   text-decoration: none;
   color: #FFFFFF;
   transition: all 1s ease-in-out;
 }
 /* line 24, ../sass/layout/_footer.scss */
+#contactHP a.phone:hover {
+  color: #1E90FF;
+}
+/* line 28, ../sass/layout/_footer.scss */
+#contactHP a.mail {
+  text-decoration: none;
+  color: #FFFFFF;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+/* line 34, ../sass/layout/_footer.scss */
 #contactHP a.mail:hover {
   color: #1E90FF;
 }
 
-/* line 30, ../sass/layout/_footer.scss */
+/* line 40, ../sass/layout/_footer.scss */
 #contactHP ul {
   list-style: none;
   padding: 0;
 }
-/* line 35, ../sass/layout/_footer.scss */
+/* line 45, ../sass/layout/_footer.scss */
 #contactHP ul li a {
   color: #FFFFFF;
   line-height: 36px;
   text-decoration: none;
 }
-/* line 41, ../sass/layout/_footer.scss */
+/* line 51, ../sass/layout/_footer.scss */
 #contactHP ul li a:hover {
   color: #1E90FF;
   border-bottom: 1px dotted #1E90FF;
@@ -199,16 +215,16 @@ navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:
   text-decoration: none;
 }
 
-/* line 49, ../sass/layout/_footer.scss */
+/* line 59, ../sass/layout/_footer.scss */
 #social {
   padding-top: 40px;
 }
-/* line 52, ../sass/layout/_footer.scss */
+/* line 62, ../sass/layout/_footer.scss */
 #social a {
   border: none;
   text-decoration: none;
 }
-/* line 57, ../sass/layout/_footer.scss */
+/* line 67, ../sass/layout/_footer.scss */
 #social span {
   margin: 25px 10px 55px 10px;
   font-size: 30px;
@@ -220,14 +236,14 @@ navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:
   border-radius: 4px;
   transition: all 1s ease-in-out;
 }
-/* line 69, ../sass/layout/_footer.scss */
+/* line 79, ../sass/layout/_footer.scss */
 #social span:hover {
   color: #FFFFFF;
   background-color: #1E90FF;
   border: 1px solid #1E90FF;
 }
 
-/* line 76, ../sass/layout/_footer.scss */
+/* line 86, ../sass/layout/_footer.scss */
 footer {
   width: 100%;
   margin: 0;
@@ -420,28 +436,31 @@ footer {
 #service {
   background-color: #333333;
   background-image: url("../../images/serviceBG.jpeg");
-  background-position: 50% 70%;
+  background-position: 50% 80%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 20px 0 100px;
 }
 /* line 9, ../sass/pages/_services.scss */
+#service .overlay {
+  padding: 20px 0 100px;
+}
+/* line 13, ../sass/pages/_services.scss */
 #service h1 {
   color: #FFFFFF;
 }
-/* line 19, ../sass/pages/_services.scss */
+/* line 23, ../sass/pages/_services.scss */
 #service h2 {
   color: #FFFFFF;
   border-bottom: 1px solid #AAAAAA;
 }
-/* line 24, ../sass/pages/_services.scss */
+/* line 28, ../sass/pages/_services.scss */
 #service p {
   padding: 10px 10px 20px 0;
   text-align: justify;
   color: #FFFFFF;
 }
-/* line 30, ../sass/pages/_services.scss */
+/* line 34, ../sass/pages/_services.scss */
 #service a.readMore {
   display: block;
   float: right;
@@ -453,11 +472,11 @@ footer {
   background-color: #FFFFFF;
   transition: all 1s;
 }
-/* line 42, ../sass/pages/_services.scss */
+/* line 46, ../sass/pages/_services.scss */
 #service a.readMore .glyphicon {
   font-size: 12px;
 }
-/* line 46, ../sass/pages/_services.scss */
+/* line 50, ../sass/pages/_services.scss */
 #service a:hover {
   background-color: #333333;
   color: #FFFFFF;
@@ -527,7 +546,7 @@ footer {
 }
 /* line 9, ../sass/pages/_contact.scss */
 #contactPG .overlay {
-  background: rgba(30, 30, 30, 0.6);
+  background: rgba(30, 30, 30, 0.7);
 }
 /* line 13, ../sass/pages/_contact.scss */
 #contactPG address {
@@ -544,64 +563,17 @@ footer {
 #contactPG a:hover {
   color: #1E90FF;
 }
-
-/* line 30, ../sass/pages/_contact.scss */
-#myLocation {
-  margin: 25px 0;
-  width: 100%;
-  height: 450px;
-  background-color: #FFFFFF;
-}
-
-/* line 37, ../sass/pages/_contact.scss */
-#contactPG table {
-  color: #FFFFFF;
-}
-
-/* line 41, ../sass/pages/_contact.scss */
-.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
-  border-top: none;
-}
-
-/* line 45, ../sass/pages/_contact.scss */
-#contactPG table tr td.heading {
-  color: #FFFFFF;
-  text-transform: uppercase;
-}
-
-/* line 50, ../sass/pages/_contact.scss */
-#contactPG table tr td.heading, #contactPG table tr td.details {
-  border-bottom: 1px solid #AAAAAA;
-}
-
-/* line 54, ../sass/pages/_contact.scss */
-#contactPG table tr a {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-/* line 59, ../sass/pages/_contact.scss */
-#contactPG table td {
-  padding: 15px 0;
-}
-
-/* line 63, ../sass/pages/_contact.scss */
+/* line 29, ../sass/pages/_contact.scss */
 #contactPG span {
   color: #FFFFFF;
   display: inline-block;
   margin-right: 15px;
 }
-
-/* line 69, ../sass/pages/_contact.scss */
-#contactPG table td.phone {
-  border-bottom: 1px dotted #CCCCCC;
-}
-
-/* line 74, ../sass/pages/_contact.scss */
+/* line 35, ../sass/pages/_contact.scss */
 #contactPG .form-group {
   margin-bottom: 20px;
 }
-/* line 78, ../sass/pages/_contact.scss */
+/* line 39, ../sass/pages/_contact.scss */
 #contactPG .form-control {
   font-family: Rajdhani, sans-serif;
   letter-spacing: 1px;
@@ -612,15 +584,15 @@ footer {
   border: none;
   transition: all 0.5s;
 }
-/* line 89, ../sass/pages/_contact.scss */
+/* line 50, ../sass/pages/_contact.scss */
 #contactPG .form-control:focus {
   border: 1px solid #1E90FF;
 }
-/* line 94, ../sass/pages/_contact.scss */
+/* line 55, ../sass/pages/_contact.scss */
 #contactPG .form-group textarea.form-control {
   height: auto;
 }
-/* line 98, ../sass/pages/_contact.scss */
+/* line 59, ../sass/pages/_contact.scss */
 #contactPG #btnSubmit {
   font-family: Rajdhani, sans-serif;
   background-color: rgba(0, 0, 0, 0.8);
@@ -630,10 +602,51 @@ footer {
   transition: all 1s;
   font-size: 24px;
 }
-/* line 108, ../sass/pages/_contact.scss */
+/* line 69, ../sass/pages/_contact.scss */
 #contactPG #btnSubmit:hover {
   border: 1px solid #1E90FF;
   color: #1E90FF;
+}
+
+/* line 76, ../sass/pages/_contact.scss */
+#myLocation {
+  margin: 25px 0;
+  width: 100%;
+  height: 450px;
+  background-color: #FFFFFF;
+}
+
+/* line 83, ../sass/pages/_contact.scss */
+#contactPG table {
+  color: #FFFFFF;
+}
+
+/* line 87, ../sass/pages/_contact.scss */
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+  border-top: none;
+}
+
+/* line 92, ../sass/pages/_contact.scss */
+#contactPG table tr td {
+  padding: 15px 0;
+}
+/* line 96, ../sass/pages/_contact.scss */
+#contactPG table tr td.heading {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+/* line 101, ../sass/pages/_contact.scss */
+#contactPG table tr td.heading, #contactPG table tr td.details {
+  border-bottom: 1px solid #AAAAAA;
+}
+/* line 105, ../sass/pages/_contact.scss */
+#contactPG table tr a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+/* line 110, ../sass/pages/_contact.scss */
+#contactPG table tr td.phone {
+  border-bottom: 1px dotted #CCCCCC;
 }
 
 /* line 5, ../sass/pages/_team.scss */
@@ -826,7 +839,7 @@ footer {
 }
 /* line 11, ../sass/pages/_training.scss */
 #trainingPG .overlay {
-  background: rgba(30, 30, 30, 0.8);
+  background: rgba(30, 30, 30, 0.9);
 }
 /* line 15, ../sass/pages/_training.scss */
 #trainingPG h2, #trainingPG h3 {
@@ -858,18 +871,18 @@ footer {
 }
 /* line 43, ../sass/pages/_training.scss */
 #trainingPG h4 {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 30px;
   text-transform: uppercase;
   background-color: #FFFFFF;
-  color: #333333;
+  color: #000000;
   display: inline-block;
   padding: 5px 15px 3px;
   border-radius: 8px;
 }
 /* line 54, ../sass/pages/_training.scss */
 #trainingPG img {
-  height: 128px;
+  height: 72px;
   max-width: 100%;
   margin-bottom: 30px;
 }
@@ -877,7 +890,7 @@ footer {
 /* line 61, ../sass/pages/_training.scss */
 p.courseDesc {
   padding: 0 30px;
-  text-align: justify;
+  text-align: left;
 }
 
 /* line 5, ../sass/pages/_casestudies.scss */
@@ -925,7 +938,7 @@ p.courseDesc {
 }
 /* line 10, ../sass/pages/_portfolio.scss */
 #portfolioPG .overlay {
-  background: rgba(30, 30, 30, 0.8);
+  background: rgba(30, 30, 30, 0.9);
 }
 /* line 14, ../sass/pages/_portfolio.scss */
 #portfolioPG h2, #portfolioPG h3 {
@@ -958,75 +971,213 @@ p.courseDesc {
 @media (max-width: 767px) {
   /* line 8, ../sass/helpers/_mediaQueries.scss */
   html, body {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   /* line 13, ../sass/helpers/_mediaQueries.scss */
+  h1 {
+    font-size: 50px;
+  }
+
+  /* line 17, ../sass/helpers/_mediaQueries.scss */
+  h2 {
+    font-size: 24px;
+  }
+
+  /* line 21, ../sass/helpers/_mediaQueries.scss */
+  h3 {
+    font-size: 20px;
+  }
+
+  /* line 26, ../sass/helpers/_mediaQueries.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #FFFFFF;
   }
 
-  /* line 17, ../sass/helpers/_mediaQueries.scss */
+  /* line 30, ../sass/helpers/_mediaQueries.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
     color: #1E90FF;
   }
 
-  /* line 22, ../sass/helpers/_mediaQueries.scss */
+  /* line 35, ../sass/helpers/_mediaQueries.scss */
   .carousel-caption h3 {
     font-size: 70px;
     line-height: 90px;
   }
 
-  /* line 27, ../sass/helpers/_mediaQueries.scss */
+  /* line 40, ../sass/helpers/_mediaQueries.scss */
   .carousel-caption p {
     font-size: 30px;
     line-height: 40px;
   }
 
-  /* line 33, ../sass/helpers/_mediaQueries.scss */
+  /* line 46, ../sass/helpers/_mediaQueries.scss */
+  #service {
+    background-color: #333333;
+    background-image: url("../../images/serviceBG.jpeg");
+    background-position: 68% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  /* line 50, ../sass/helpers/_mediaQueries.scss */
+  #aboutPG {
+    background-color: #333333;
+    background-image: url("../../images/aboutPGBG.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  /* line 54, ../sass/helpers/_mediaQueries.scss */
+  #teamPG {
+    background-color: #333333;
+    background-image: url("../../images/teamPGBG.jpeg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  /* line 58, ../sass/helpers/_mediaQueries.scss */
+  #careerPG {
+    background-color: #FFFFFF;
+    background-image: url("../../images/careerPGBG.jpeg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  /* line 62, ../sass/helpers/_mediaQueries.scss */
+  #consultingPG {
+    background-color: #333333;
+    background-image: url("../../images/consultingPGBG.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  /* line 66, ../sass/helpers/_mediaQueries.scss */
+  #staffingPG {
+    background-color: #333333;
+    background-image: url("../../images/staffingPGBG.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  /* line 70, ../sass/helpers/_mediaQueries.scss */
+  #trainingPG {
+    background-color: #333333;
+    background-image: url("../../images/trainingPGBG.jpeg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  /* line 74, ../sass/helpers/_mediaQueries.scss */
+  #portfolioPG {
+    background-color: #333333;
+    background-image: url("../../images/trainingPGBG.jpeg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  /* line 78, ../sass/helpers/_mediaQueries.scss */
+  #caseStudiesPG {
+    background-color: #FFFFFF;
+    background-image: url("../../images/casestudiesPGBG.jpeg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  /* line 82, ../sass/helpers/_mediaQueries.scss */
+  #contactPG {
+    background-color: #333333;
+    background-image: url("../../images/contactPGBG.jpeg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  /* line 87, ../sass/helpers/_mediaQueries.scss */
   #teamPG .teamItem {
     text-align: center;
   }
+
+  /* line 93, ../sass/helpers/_mediaQueries.scss */
+  #service .overlay {
+    background: rgba(30, 30, 30, 0.6);
+    padding: 20px 0 100px;
+  }
+
+  /* line 100, ../sass/helpers/_mediaQueries.scss */
+  #trainingPG img {
+    height: 56px;
+  }
+
+  /* line 107, ../sass/helpers/_mediaQueries.scss */
+  #contactPG span {
+    margin-right: 2px;
+  }
+  /* line 111, ../sass/helpers/_mediaQueries.scss */
+  #contactPG table tr td.heading {
+    width: 30%;
+  }
+  /* line 115, ../sass/helpers/_mediaQueries.scss */
+  #contactPG table tr td.heading, #contactPG #contactPG table tr td.phone, #contactPG #contactPG table tr td.details {
+    font-size: 12px;
+  }
 }
 @media (min-width: 768px) {
-  /* line 39, ../sass/helpers/_mediaQueries.scss */
+  /* line 122, ../sass/helpers/_mediaQueries.scss */
   .borderRight {
     border-right: 1px solid #ffffff;
   }
 
-  /* line 43, ../sass/helpers/_mediaQueries.scss */
+  /* line 126, ../sass/helpers/_mediaQueries.scss */
   .borderTop {
     border-top: 1px solid #ffffff;
   }
 
-  /* line 47, ../sass/helpers/_mediaQueries.scss */
+  /* line 130, ../sass/helpers/_mediaQueries.scss */
   .navbar-nav > li > a {
     padding-top: 25px;
     padding-bottom: 25px;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-  /* line 56, ../sass/helpers/_mediaQueries.scss */
+  /* line 139, ../sass/helpers/_mediaQueries.scss */
   header .navbar-brand {
     padding: 12px 15px;
     height: 70px;
   }
 
-  /* line 61, ../sass/helpers/_mediaQueries.scss */
+  /* line 144, ../sass/helpers/_mediaQueries.scss */
   #smLogo {
     height: 50px;
   }
 
-  /* line 65, ../sass/helpers/_mediaQueries.scss */
+  /* line 148, ../sass/helpers/_mediaQueries.scss */
   .navbar-default .navbar-nav > li > a {
     letter-spacing: 1px;
     font-size: 14px;
   }
 
-  /* line 71, ../sass/helpers/_mediaQueries.scss */
+  /* line 154, ../sass/helpers/_mediaQueries.scss */
   #teamPG .teamItem {
     text-align: center;
   }
 }
-
 /*# sourceMappingURL=main.css.map */
