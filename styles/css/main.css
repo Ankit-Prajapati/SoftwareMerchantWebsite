@@ -1,15 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Abel|Advent+Pro:400,700|Rajdhani:400,500,600,700|Slabo+27px");
-/* line 5, ../sass/base/_base.scss */
 img {
   max-width: 100%;
 }
 
-/* line 9, ../sass/base/_base.scss */
 .bottomMargin {
   margin-bottom: 60px;
 }
 
-/* line 13, ../sass/base/_base.scss */
 a.pdfButton {
   padding: 5px 30px;
   background-color: #1E90FF;
@@ -18,12 +15,10 @@ a.pdfButton {
   text-decoration: none;
   border: 1px solid #1E90FF;
 }
-/* line 21, ../sass/base/_base.scss */
 a.pdfButton span {
   font-size: 16px;
 }
 
-/* line 26, ../sass/base/_base.scss */
 a.pdfButton:hover {
   padding: 5px 30px;
   background-color: #FFFFFF;
@@ -34,13 +29,11 @@ a.pdfButton:hover {
   transition: all 1s;
 }
 
-/* line 5, ../sass/base/_typography.scss */
 html, body {
   font-family: Rajdhani, sans-serif;
   font-size: 18px;
 }
 
-/* line 10, ../sass/base/_typography.scss */
 h1 {
   font-size: 60px;
   margin: 60px 0 40px 0;
@@ -49,7 +42,6 @@ h1 {
   color: #1E90FF;
 }
 
-/* line 18, ../sass/base/_typography.scss */
 h2 {
   font-size: 28px;
   padding-bottom: 10px;
@@ -58,33 +50,27 @@ h2 {
   border-bottom: 1px dotted #1E90FF;
 }
 
-/* line 27, ../sass/base/_typography.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 5, ../sass/layout/_navigation.scss */
 #smLogo {
   height: 64px;
 }
 
-/* line 9, ../sass/layout/_navigation.scss */
 .navbar {
   min-height: 70px;
 }
 
-/* line 14, ../sass/layout/_navigation.scss */
 header .navbar-default {
   background-color: rgba(0, 0, 0, 0.8);
   border: none;
 }
-/* line 19, ../sass/layout/_navigation.scss */
 header .navbar-brand {
   padding: 4px 15px;
   height: 70px;
 }
 
-/* line 25, ../sass/layout/_navigation.scss */
 .navbar-default .navbar-nav > li > a {
   color: #FFFFFF;
   text-transform: uppercase;
@@ -92,25 +78,21 @@ header .navbar-brand {
   font-size: 20px;
 }
 
-/* line 32, ../sass/layout/_navigation.scss */
 navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   color: #1E90FF;
   transition: all 1s;
 }
 
-/* line 37, ../sass/layout/_navigation.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
   color: #1E90FF;
   background-color: rgba(0, 0, 0, 0.9);
   transition: all 1s;
 }
 
-/* line 43, ../sass/layout/_navigation.scss */
 .navbar-default .navbar-nav > li > a span {
   font-size: 14px;
 }
 
-/* line 47, ../sass/layout/_navigation.scss */
 .dropdown-menu {
   font-size: 18px;
   background-color: rgba(0, 0, 0, 0.9);
@@ -121,41 +103,34 @@ navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:
   box-shadow: 0 6px 12px rgba(0, 0, 102, 0.175);
 }
 
-/* line 57, ../sass/layout/_navigation.scss */
 .dropdown-menu > li > a {
   color: #FFFFFF;
   letter-spacing: 1px;
 }
 
-/* line 62, ../sass/layout/_navigation.scss */
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
   color: #1E90FF;
   background: none;
   transition: all 1s;
 }
 
-/* line 68, ../sass/layout/_navigation.scss */
 .navbar-toggle {
   border-radius: 0;
 }
 
-/* line 72, ../sass/layout/_navigation.scss */
 .menuBar {
   color: #FFFFFF;
   font-size: 28px;
 }
 
-/* line 77, ../sass/layout/_navigation.scss */
 .navbar-default .navbar-toggle {
   border-color: #1E90FF;
 }
 
-/* line 81, ../sass/layout/_navigation.scss */
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: transparent;
 }
 
-/* line 5, ../sass/layout/_footer.scss */
 #contactHP {
   background-color: #000000;
   background-image: url("../../images/footerBG.png");
@@ -165,49 +140,40 @@ navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:
   background-attachment: fixed;
   padding: 40px 0 20px;
 }
-/* line 9, ../sass/layout/_footer.scss */
 #contactHP h2 {
   color: #1E90FF;
 }
-/* line 13, ../sass/layout/_footer.scss */
 #contactHP p {
   color: #FFFFFF;
   line-height: 36px;
 }
-/* line 18, ../sass/layout/_footer.scss */
 #contactHP a.phone {
   text-decoration: none;
   color: #FFFFFF;
   transition: all 1s ease-in-out;
 }
-/* line 24, ../sass/layout/_footer.scss */
 #contactHP a.phone:hover {
   color: #1E90FF;
 }
-/* line 28, ../sass/layout/_footer.scss */
 #contactHP a.mail {
   text-decoration: none;
   color: #FFFFFF;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-/* line 34, ../sass/layout/_footer.scss */
 #contactHP a.mail:hover {
   color: #1E90FF;
 }
 
-/* line 40, ../sass/layout/_footer.scss */
 #contactHP ul {
   list-style: none;
   padding: 0;
 }
-/* line 45, ../sass/layout/_footer.scss */
 #contactHP ul li a {
   color: #FFFFFF;
   line-height: 36px;
   text-decoration: none;
 }
-/* line 51, ../sass/layout/_footer.scss */
 #contactHP ul li a:hover {
   color: #1E90FF;
   border-bottom: 1px dotted #1E90FF;
@@ -215,35 +181,27 @@ navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:
   text-decoration: none;
 }
 
-/* line 59, ../sass/layout/_footer.scss */
 #social {
   padding-top: 40px;
 }
-/* line 62, ../sass/layout/_footer.scss */
 #social a {
   border: none;
   text-decoration: none;
 }
-/* line 67, ../sass/layout/_footer.scss */
 #social span {
-  margin: 25px 10px 55px 10px;
-  font-size: 30px;
+  margin: 25px 20px 55px 20px;
+  font-size: 24px;
   color: #1E90FF;
-  border: 1px solid #1E90FF;
-  width: 48px;
-  height: 48px;
-  line-height: 46px;
-  border-radius: 4px;
-  transition: all 1s ease-in-out;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
-/* line 79, ../sass/layout/_footer.scss */
 #social span:hover {
   color: #FFFFFF;
-  background-color: #1E90FF;
-  border: 1px solid #1E90FF;
 }
 
-/* line 86, ../sass/layout/_footer.scss */
 footer {
   width: 100%;
   margin: 0;
@@ -255,66 +213,55 @@ footer {
   border-top: 1px solid #1E90FF;
 }
 
-/* line 4, ../sass/components/_accordion.scss */
 .panel {
   border: none;
   background-color: transparent;
 }
 
-/* line 9, ../sass/components/_accordion.scss */
 .panel-default {
   border-color: none;
 }
 
-/* line 13, ../sass/components/_accordion.scss */
 .panel-default > .panel-heading {
   color: #FFFFFF;
   background-color: rgba(0, 0, 0, 0.8);
   border-color: #000000;
 }
 
-/* line 19, ../sass/components/_accordion.scss */
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #000000;
   background-color: rgba(0, 0, 0, 0.4);
   font-size: 18px;
 }
 
-/* line 25, ../sass/components/_accordion.scss */
 .panel-title {
   font-size: 18px;
 }
 
-/* line 29, ../sass/components/_accordion.scss */
 .panel-title a {
   display: block;
   padding: 10px 15px;
   margin: -10px -15px;
 }
 
-/* line 39, ../sass/components/_accordion.scss */
 #accordion .panel-title a:hover {
   text-decoration: none;
   color: #1E90FF;
   transition: all 0.5s;
 }
 
-/* line 45, ../sass/components/_accordion.scss */
 #accordion .panel-title a:focus {
   text-decoration: none;
 }
 
-/* line 49, ../sass/components/_accordion.scss */
 .panel-group {
   margin-bottom: 60px;
 }
 
-/* line 53, ../sass/components/_accordion.scss */
 .panel-group .panel {
   margin-bottom: 15px;
 }
 
-/* line 57, ../sass/components/_accordion.scss */
 .panel-heading .accordion-toggle:after {
   /* symbol for "opening" panels */
   font-family: 'Glyphicons Halflings';
@@ -327,35 +274,29 @@ footer {
   /* adjust as needed */
 }
 
-/* line 64, ../sass/components/_accordion.scss */
 .panel-heading .accordion-toggle.collapsed:after {
   /* symbol for "collapsed" panels */
   content: "\e080";
   /* adjust as needed, taken from bootstrap.css */
 }
 
-/* line 5, ../sass/components/_carousel.scss */
 .carousel-control {
   opacity: 0;
 }
 
-/* line 9, ../sass/components/_carousel.scss */
 .carousel-control.left, .carousel-control.right {
   background-image: none;
 }
 
-/* line 13, ../sass/components/_carousel.scss */
 .carousel, .carousel-inner, .carousel-inner .item {
   height: 100%;
 }
 
-/* line 17, ../sass/components/_carousel.scss */
 .carousel-caption {
   top: 30%;
   bottom: auto;
 }
 
-/* line 22, ../sass/components/_carousel.scss */
 .carousel-caption h3 {
   font-weight: bold;
   color: #FFFFFF;
@@ -364,7 +305,6 @@ footer {
   text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
 }
 
-/* line 30, ../sass/components/_carousel.scss */
 .carousel-caption p {
   font-family: Abel, sans-serif;
   color: #FFFFFF;
@@ -373,12 +313,10 @@ footer {
   text-shadow: 0px 0px 10px #000000;
 }
 
-/* line 38, ../sass/components/_carousel.scss */
 .carousel.fades {
   opacity: 1;
 }
 
-/* line 42, ../sass/components/_carousel.scss */
 .carousel.fades .item {
   transition: opacity ease-out .7s;
   left: 0;
@@ -389,26 +327,21 @@ footer {
   display: block;
 }
 
-/* line 58, ../sass/components/_carousel.scss */
 .carousel.fades .item.active {
   opacity: 1;
 }
 
-/* line 6, ../sass/pages/_about.scss */
 #aboutHP {
   background-color: #1E90FF;
   padding: 20px 0 100px;
 }
-/* line 10, ../sass/pages/_about.scss */
 #aboutHP h1, #aboutHP p {
   color: #FFFFFF;
 }
-/* line 14, ../sass/pages/_about.scss */
 #aboutHP p:last-child {
   padding-bottom: 20px;
 }
 
-/* line 21, ../sass/pages/_about.scss */
 #aboutPG {
   background-color: #333333;
   background-image: url("../../images/aboutPGBG.jpg");
@@ -419,20 +352,16 @@ footer {
   padding-top: 70px;
   color: #FFFFFF;
 }
-/* line 26, ../sass/pages/_about.scss */
 #aboutPG .overlay {
-  background: rgba(30, 30, 30, 0.6);
+  background: rgba(30, 30, 30, 0.7);
 }
-/* line 30, ../sass/pages/_about.scss */
 #aboutPG p:last-child {
   margin-bottom: 60px;
 }
-/* line 34, ../sass/pages/_about.scss */
 #aboutPG h2 {
   margin-top: 40px;
 }
 
-/* line 5, ../sass/pages/_services.scss */
 #service {
   background-color: #333333;
   background-image: url("../../images/serviceBG.jpeg");
@@ -441,26 +370,21 @@ footer {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-/* line 9, ../sass/pages/_services.scss */
 #service .overlay {
   padding: 20px 0 100px;
 }
-/* line 13, ../sass/pages/_services.scss */
 #service h1 {
   color: #FFFFFF;
 }
-/* line 23, ../sass/pages/_services.scss */
 #service h2 {
   color: #FFFFFF;
   border-bottom: 1px solid #AAAAAA;
 }
-/* line 28, ../sass/pages/_services.scss */
 #service p {
   padding: 10px 10px 20px 0;
   text-align: justify;
   color: #FFFFFF;
 }
-/* line 34, ../sass/pages/_services.scss */
 #service a.readMore {
   display: block;
   float: right;
@@ -472,18 +396,15 @@ footer {
   background-color: #FFFFFF;
   transition: all 1s;
 }
-/* line 46, ../sass/pages/_services.scss */
 #service a.readMore .glyphicon {
   font-size: 12px;
 }
-/* line 50, ../sass/pages/_services.scss */
 #service a:hover {
   background-color: #333333;
   color: #FFFFFF;
   text-decoration: none;
 }
 
-/* line 5, ../sass/pages/_clients.scss */
 #clients {
   background-color: #FFFFFF;
   background-image: url("../../images/clientsBG.png");
@@ -493,12 +414,10 @@ footer {
   background-attachment: fixed;
   padding: 20px 0 100px;
 }
-/* line 9, ../sass/pages/_clients.scss */
 #clients h1 {
   color: #1E90FF;
 }
 
-/* line 14, ../sass/pages/_clients.scss */
 .clientsContainer {
   display: -webkit-flex;
   display: flex;
@@ -510,13 +429,11 @@ footer {
   height: auto;
 }
 
-/* line 25, ../sass/pages/_clients.scss */
 .clientItem {
   width: 100px;
   height: 100px;
   margin: 20px;
 }
-/* line 30, ../sass/pages/_clients.scss */
 .clientItem img {
   /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
   filter: gray;
@@ -526,7 +443,6 @@ footer {
   -webkit-transition: all .5s;
   transition: all .5s;
 }
-/* line 38, ../sass/pages/_clients.scss */
 .clientItem img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
@@ -534,7 +450,6 @@ footer {
   transform: scale(1.02);
 }
 
-/* line 5, ../sass/pages/_contact.scss */
 #contactPG {
   background-color: #333333;
   background-image: url("../../images/contactPGBG.jpeg");
@@ -544,36 +459,29 @@ footer {
   background-attachment: fixed;
   padding-top: 70px;
 }
-/* line 9, ../sass/pages/_contact.scss */
 #contactPG .overlay {
   background: rgba(30, 30, 30, 0.7);
 }
-/* line 13, ../sass/pages/_contact.scss */
 #contactPG address {
   color: #FFFFFF;
   padding-bottom: 40px;
 }
-/* line 18, ../sass/pages/_contact.scss */
 #contactPG a {
   text-decoration: none;
   color: #FFFFFF;
   transition: all 1s;
 }
-/* line 24, ../sass/pages/_contact.scss */
 #contactPG a:hover {
   color: #1E90FF;
 }
-/* line 29, ../sass/pages/_contact.scss */
 #contactPG span {
   color: #FFFFFF;
   display: inline-block;
   margin-right: 15px;
 }
-/* line 35, ../sass/pages/_contact.scss */
 #contactPG .form-group {
   margin-bottom: 20px;
 }
-/* line 39, ../sass/pages/_contact.scss */
 #contactPG .form-control {
   font-family: Rajdhani, sans-serif;
   letter-spacing: 1px;
@@ -584,15 +492,12 @@ footer {
   border: none;
   transition: all 0.5s;
 }
-/* line 50, ../sass/pages/_contact.scss */
 #contactPG .form-control:focus {
   border: 1px solid #1E90FF;
 }
-/* line 55, ../sass/pages/_contact.scss */
 #contactPG .form-group textarea.form-control {
   height: auto;
 }
-/* line 59, ../sass/pages/_contact.scss */
 #contactPG #btnSubmit {
   font-family: Rajdhani, sans-serif;
   background-color: rgba(0, 0, 0, 0.8);
@@ -602,13 +507,11 @@ footer {
   transition: all 1s;
   font-size: 24px;
 }
-/* line 69, ../sass/pages/_contact.scss */
 #contactPG #btnSubmit:hover {
   border: 1px solid #1E90FF;
   color: #1E90FF;
 }
 
-/* line 76, ../sass/pages/_contact.scss */
 #myLocation {
   margin: 25px 0;
   width: 100%;
@@ -616,40 +519,32 @@ footer {
   background-color: #FFFFFF;
 }
 
-/* line 83, ../sass/pages/_contact.scss */
 #contactPG table {
   color: #FFFFFF;
 }
 
-/* line 87, ../sass/pages/_contact.scss */
 .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
   border-top: none;
 }
 
-/* line 92, ../sass/pages/_contact.scss */
 #contactPG table tr td {
   padding: 15px 0;
 }
-/* line 96, ../sass/pages/_contact.scss */
 #contactPG table tr td.heading {
   color: #FFFFFF;
   text-transform: uppercase;
 }
-/* line 101, ../sass/pages/_contact.scss */
 #contactPG table tr td.heading, #contactPG table tr td.details {
   border-bottom: 1px solid #AAAAAA;
 }
-/* line 105, ../sass/pages/_contact.scss */
 #contactPG table tr a {
   text-decoration: none;
   color: #FFFFFF;
 }
-/* line 110, ../sass/pages/_contact.scss */
 #contactPG table tr td.phone {
   border-bottom: 1px dotted #CCCCCC;
 }
 
-/* line 5, ../sass/pages/_team.scss */
 #teamPG {
   background-color: #333333;
   background-image: url("../../images/teamPGBG.jpeg");
@@ -660,38 +555,40 @@ footer {
   padding-top: 70px;
   color: #FFFFFF;
 }
-/* line 10, ../sass/pages/_team.scss */
 #teamPG .overlay {
-  background: rgba(30, 30, 30, 0.6);
+  background: rgba(30, 30, 30, 0.7);
 }
-/* line 14, ../sass/pages/_team.scss */
 #teamPG .teamItem {
-  padding: 10px 0 80px;
+  padding: 40px 0;
+  border-bottom: 1px dotted #1E90FF;
 }
-/* line 18, ../sass/pages/_team.scss */
+#teamPG .teamItem:last-child {
+  border: none;
+}
+#teamPG hgroup {
+  line-height: 10px;
+}
 #teamPG hgroup h3 {
-  background-color: #1E90FF;
-  display: inline-block;
-  padding: 4px 15px;
-  border-radius: 8px;
+  color: #1E90FF;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0;
+  margin-bottom: 0;
 }
-/* line 25, ../sass/pages/_team.scss */
 #teamPG hgroup h4 {
-  background-color: #FFFFFF;
-  color: #333333;
-  display: inline-block;
-  padding: 5px 15px 3px;
-  border-radius: 8px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0;
   margin-top: 0;
 }
-/* line 34, ../sass/pages/_team.scss */
 #teamPG img {
-  width: 90%;
+  width: 60%;
   border-radius: 50%;
-  border: 5px solid #000000;
+  -webkit-box-shadow: 0 0 20px #000000;
+          box-shadow: 0 0 20px #000000;
 }
 
-/* line 5, ../sass/pages/_careers.scss */
 #careerPG {
   background-color: #FFFFFF;
   background-image: url("../../images/careerPGBG.jpeg");
@@ -702,34 +599,30 @@ footer {
   padding-top: 70px;
   color: #FFFFFF;
 }
-/* line 10, ../sass/pages/_careers.scss */
 #careerPG .overlay {
-  background: rgba(30, 30, 30, 0.7);
+  background: rgba(30, 30, 30, 0.9);
 }
-/* line 14, ../sass/pages/_careers.scss */
 #careerPG h2 {
   margin-top: 50px;
 }
-/* line 18, ../sass/pages/_careers.scss */
 #careerPG #accordion .panel-body .dl-horizontal dt {
   font-weight: normal;
   color: #1E90FF;
 }
-/* line 23, ../sass/pages/_careers.scss */
+#careerPG .panel-default > .panel-heading + .panel-collapse > .panel-body {
+  font-size: 16px;
+}
 #careerPG ul {
   list-style-type: none;
 }
-/* line 26, ../sass/pages/_careers.scss */
 #careerPG ul li {
   font-size: 16px;
   line-height: 28px;
 }
-/* line 30, ../sass/pages/_careers.scss */
 #careerPG ul li span {
   font-size: 14px;
   color: green;
 }
-/* line 37, ../sass/pages/_careers.scss */
 #careerPG a.email:hover {
   text-decoration: none;
   border-bottom: 1px solid #0080FF;
@@ -737,7 +630,6 @@ footer {
   transition: all 1s;
 }
 
-/* line 5, ../sass/pages/_consulting.scss */
 #consultingPG {
   background-color: #333333;
   background-image: url("../../images/consultingPGBG.jpg");
@@ -748,41 +640,33 @@ footer {
   padding-top: 70px;
   color: #FFFFFF;
 }
-/* line 10, ../sass/pages/_consulting.scss */
 #consultingPG .overlay {
-  background: rgba(30, 30, 30, 0.6);
+  background: rgba(30, 30, 30, 0.7);
 }
-/* line 14, ../sass/pages/_consulting.scss */
 #consultingPG h2, #consultingPG h3 {
   margin: 0;
 }
-/* line 19, ../sass/pages/_consulting.scss */
 #consultingPG h2 {
   margin-top: 60px;
 }
-/* line 23, ../sass/pages/_consulting.scss */
 #consultingPG h3 {
   margin-top: 6px;
   margin-bottom: 20px;
-  color: #000000;
+  color: #FFFFFF;
 }
-/* line 29, ../sass/pages/_consulting.scss */
 #consultingPG ul {
   list-style-type: none;
   margin-top: 15px;
 }
-/* line 33, ../sass/pages/_consulting.scss */
 #consultingPG ul li {
   font-size: 16px;
   line-height: 28px;
 }
-/* line 37, ../sass/pages/_consulting.scss */
 #consultingPG ul li span {
   font-size: 14px;
   color: green;
 }
 
-/* line 5, ../sass/pages/_staffing.scss */
 #staffingPG {
   background-color: #333333;
   background-image: url("../../images/staffingPGBG.jpg");
@@ -793,40 +677,32 @@ footer {
   padding-top: 70px;
   color: #FFFFFF;
 }
-/* line 10, ../sass/pages/_staffing.scss */
 #staffingPG .overlay {
   background: rgba(30, 30, 30, 0.8);
 }
-/* line 14, ../sass/pages/_staffing.scss */
 #staffingPG h2, #staffingPG h3 {
   margin: 0;
 }
-/* line 18, ../sass/pages/_staffing.scss */
 #staffingPG h2 {
   margin-top: 60px;
 }
-/* line 22, ../sass/pages/_staffing.scss */
 #staffingPG h3 {
   margin-top: 6px;
   margin-bottom: 20px;
-  color: #AAAAAA;
+  color: #FFFFFF;
 }
-/* line 28, ../sass/pages/_staffing.scss */
 #staffingPG ul {
   list-style-type: none;
 }
-/* line 31, ../sass/pages/_staffing.scss */
 #staffingPG ul li {
   font-size: 16px;
   line-height: 28px;
 }
-/* line 35, ../sass/pages/_staffing.scss */
 #staffingPG ul li span {
   font-size: 14px;
   color: green;
 }
 
-/* line 6, ../sass/pages/_training.scss */
 #trainingPG {
   background-color: #333333;
   background-image: url("../../images/trainingPGBG.jpeg");
@@ -837,39 +713,31 @@ footer {
   padding-top: 70px;
   color: #FFFFFF;
 }
-/* line 11, ../sass/pages/_training.scss */
 #trainingPG .overlay {
   background: rgba(30, 30, 30, 0.9);
 }
-/* line 15, ../sass/pages/_training.scss */
 #trainingPG h2, #trainingPG h3 {
   margin: 0;
 }
-/* line 19, ../sass/pages/_training.scss */
 #trainingPG h2 {
   margin-top: 60px;
 }
-/* line 23, ../sass/pages/_training.scss */
 #trainingPG h3 {
   margin-top: 6px;
   margin-bottom: 20px;
   color: #FFFFFF;
 }
-/* line 29, ../sass/pages/_training.scss */
 #trainingPG ul {
   list-style-type: none;
 }
-/* line 32, ../sass/pages/_training.scss */
 #trainingPG ul li {
   font-size: 16px;
   line-height: 28px;
 }
-/* line 36, ../sass/pages/_training.scss */
 #trainingPG ul li span {
   font-size: 14px;
   color: green;
 }
-/* line 43, ../sass/pages/_training.scss */
 #trainingPG h4 {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -880,20 +748,17 @@ footer {
   padding: 5px 15px 3px;
   border-radius: 8px;
 }
-/* line 54, ../sass/pages/_training.scss */
 #trainingPG img {
   height: 72px;
   max-width: 100%;
   margin-bottom: 30px;
 }
 
-/* line 61, ../sass/pages/_training.scss */
 p.courseDesc {
   padding: 0 30px;
   text-align: left;
 }
 
-/* line 5, ../sass/pages/_casestudies.scss */
 #caseStudiesPG {
   background-color: #FFFFFF;
   background-image: url("../../images/casestudiesPGBG.jpeg");
@@ -904,28 +769,23 @@ p.courseDesc {
   padding-top: 70px;
   color: #FFFFFF;
 }
-/* line 10, ../sass/pages/_casestudies.scss */
 #caseStudiesPG .overlay {
   background: rgba(30, 30, 30, 0.8);
 }
-/* line 14, ../sass/pages/_casestudies.scss */
 #caseStudiesPG h2 {
   margin-top: 50px;
 }
-/* line 20, ../sass/pages/_casestudies.scss */
 #caseStudiesPG .panel .panel-body img {
   float: left;
   margin-right: 20px;
   height: 275px;
   max-width: auto;
 }
-/* line 28, ../sass/pages/_casestudies.scss */
 #caseStudiesPG .panel .panel-heading h4 i {
   font-size: 14px;
   color: green;
 }
 
-/* line 5, ../sass/pages/_portfolio.scss */
 #portfolioPG {
   background-color: #333333;
   background-image: url("../../images/trainingPGBG.jpeg");
@@ -936,31 +796,24 @@ p.courseDesc {
   padding-top: 70px;
   color: #FFFFFF;
 }
-/* line 10, ../sass/pages/_portfolio.scss */
 #portfolioPG .overlay {
   background: rgba(30, 30, 30, 0.9);
 }
-/* line 14, ../sass/pages/_portfolio.scss */
 #portfolioPG h2, #portfolioPG h3 {
   margin: 0;
 }
-/* line 18, ../sass/pages/_portfolio.scss */
 #portfolioPG h2 {
   margin-top: 60px;
 }
-/* line 22, ../sass/pages/_portfolio.scss */
 #portfolioPG h3 {
   color: #1E90FF;
 }
-/* line 26, ../sass/pages/_portfolio.scss */
 #portfolioPG h4 {
   color: #333333;
 }
-/* line 30, ../sass/pages/_portfolio.scss */
 #portfolioPG .modal-body {
   color: #000000;
 }
-/* line 34, ../sass/pages/_portfolio.scss */
 #portfolioPG img.portfolioImg {
   padding: 5px;
   border: 1px solid #FFFFFF;
@@ -969,49 +822,52 @@ p.courseDesc {
 }
 
 @media (max-width: 767px) {
-  /* line 8, ../sass/helpers/_mediaQueries.scss */
   html, body {
     font-size: 16px;
   }
 
-  /* line 13, ../sass/helpers/_mediaQueries.scss */
   h1 {
     font-size: 50px;
   }
 
-  /* line 17, ../sass/helpers/_mediaQueries.scss */
   h2 {
     font-size: 24px;
   }
 
-  /* line 21, ../sass/helpers/_mediaQueries.scss */
   h3 {
     font-size: 20px;
   }
 
-  /* line 26, ../sass/helpers/_mediaQueries.scss */
+  h4 {
+    font-size: 16px;
+  }
+
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #FFFFFF;
   }
 
-  /* line 30, ../sass/helpers/_mediaQueries.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
     color: #1E90FF;
   }
 
-  /* line 35, ../sass/helpers/_mediaQueries.scss */
   .carousel-caption h3 {
-    font-size: 70px;
+    font-size: 50px;
     line-height: 90px;
   }
 
-  /* line 40, ../sass/helpers/_mediaQueries.scss */
   .carousel-caption p {
     font-size: 30px;
     line-height: 40px;
   }
 
-  /* line 46, ../sass/helpers/_mediaQueries.scss */
+  #social span {
+    margin: 15px 10px 40px 10px;
+    font-size: 18px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+  }
+
   #service {
     background-color: #333333;
     background-image: url("../../images/serviceBG.jpeg");
@@ -1021,7 +877,6 @@ p.courseDesc {
     background-attachment: scroll;
   }
 
-  /* line 50, ../sass/helpers/_mediaQueries.scss */
   #aboutPG {
     background-color: #333333;
     background-image: url("../../images/aboutPGBG.jpg");
@@ -1031,7 +886,6 @@ p.courseDesc {
     background-attachment: scroll;
   }
 
-  /* line 54, ../sass/helpers/_mediaQueries.scss */
   #teamPG {
     background-color: #333333;
     background-image: url("../../images/teamPGBG.jpeg");
@@ -1041,7 +895,6 @@ p.courseDesc {
     background-attachment: scroll;
   }
 
-  /* line 58, ../sass/helpers/_mediaQueries.scss */
   #careerPG {
     background-color: #FFFFFF;
     background-image: url("../../images/careerPGBG.jpeg");
@@ -1051,7 +904,6 @@ p.courseDesc {
     background-attachment: scroll;
   }
 
-  /* line 62, ../sass/helpers/_mediaQueries.scss */
   #consultingPG {
     background-color: #333333;
     background-image: url("../../images/consultingPGBG.jpg");
@@ -1061,7 +913,6 @@ p.courseDesc {
     background-attachment: scroll;
   }
 
-  /* line 66, ../sass/helpers/_mediaQueries.scss */
   #staffingPG {
     background-color: #333333;
     background-image: url("../../images/staffingPGBG.jpg");
@@ -1071,7 +922,6 @@ p.courseDesc {
     background-attachment: scroll;
   }
 
-  /* line 70, ../sass/helpers/_mediaQueries.scss */
   #trainingPG {
     background-color: #333333;
     background-image: url("../../images/trainingPGBG.jpeg");
@@ -1081,7 +931,6 @@ p.courseDesc {
     background-attachment: scroll;
   }
 
-  /* line 74, ../sass/helpers/_mediaQueries.scss */
   #portfolioPG {
     background-color: #333333;
     background-image: url("../../images/trainingPGBG.jpeg");
@@ -1091,7 +940,6 @@ p.courseDesc {
     background-attachment: scroll;
   }
 
-  /* line 78, ../sass/helpers/_mediaQueries.scss */
   #caseStudiesPG {
     background-color: #FFFFFF;
     background-image: url("../../images/casestudiesPGBG.jpeg");
@@ -1101,7 +949,6 @@ p.courseDesc {
     background-attachment: scroll;
   }
 
-  /* line 82, ../sass/helpers/_mediaQueries.scss */
   #contactPG {
     background-color: #333333;
     background-image: url("../../images/contactPGBG.jpeg");
@@ -1111,71 +958,68 @@ p.courseDesc {
     background-attachment: scroll;
   }
 
-  /* line 87, ../sass/helpers/_mediaQueries.scss */
   #teamPG .teamItem {
     text-align: center;
   }
 
-  /* line 93, ../sass/helpers/_mediaQueries.scss */
   #service .overlay {
     background: rgba(30, 30, 30, 0.6);
     padding: 20px 0 100px;
   }
 
-  /* line 100, ../sass/helpers/_mediaQueries.scss */
+  #consultingPG h3, #staffingPG h3, #careerPG h3 {
+    font-size: 18px;
+  }
+  #consultingPG ul, #staffingPG ul, #careerPG ul {
+    padding-left: 5px;
+  }
+  #consultingPG ul li, #staffingPG ul li, #careerPG ul li {
+    font-size: 14px;
+  }
+
   #trainingPG img {
     height: 56px;
   }
 
-  /* line 107, ../sass/helpers/_mediaQueries.scss */
   #contactPG span {
     margin-right: 2px;
   }
-  /* line 111, ../sass/helpers/_mediaQueries.scss */
   #contactPG table tr td.heading {
     width: 30%;
   }
-  /* line 115, ../sass/helpers/_mediaQueries.scss */
   #contactPG table tr td.heading, #contactPG table tr td.phone, #contactPG table tr td.details {
     font-size: 12px;
   }
 }
 @media (min-width: 768px) {
-  /* line 122, ../sass/helpers/_mediaQueries.scss */
   .borderRight {
     border-right: 1px solid #ffffff;
   }
 
-  /* line 126, ../sass/helpers/_mediaQueries.scss */
   .borderTop {
     border-top: 1px solid #ffffff;
   }
 
-  /* line 130, ../sass/helpers/_mediaQueries.scss */
   .navbar-nav > li > a {
     padding-top: 25px;
     padding-bottom: 25px;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-  /* line 139, ../sass/helpers/_mediaQueries.scss */
   header .navbar-brand {
     padding: 12px 15px;
     height: 70px;
   }
 
-  /* line 144, ../sass/helpers/_mediaQueries.scss */
   #smLogo {
     height: 50px;
   }
 
-  /* line 148, ../sass/helpers/_mediaQueries.scss */
   .navbar-default .navbar-nav > li > a {
     letter-spacing: 1px;
     font-size: 14px;
   }
 
-  /* line 154, ../sass/helpers/_mediaQueries.scss */
   #teamPG .teamItem {
     text-align: center;
   }
