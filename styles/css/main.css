@@ -1136,7 +1136,7 @@ p.courseDesc {
     width: 30%;
   }
   /* line 115, ../sass/helpers/_mediaQueries.scss */
-  #contactPG table tr td.heading, #contactPG #contactPG table tr td.phone, #contactPG #contactPG table tr td.details {
+  #contactPG table tr td.heading, #contactPG table tr td.phone, #contactPG table tr td.details {
     font-size: 12px;
   }
 }
@@ -1180,4 +1180,5 @@ p.courseDesc {
     text-align: center;
   }
 }
+
 /*# sourceMappingURL=main.css.map */
