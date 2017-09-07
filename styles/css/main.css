@@ -371,6 +371,7 @@ footer {
   background-attachment: fixed;
 }
 #service .overlay {
+  background: rgba(30, 30, 30, 0.6);
   padding: 20px 0 100px;
 }
 #service h1 {
@@ -436,16 +437,16 @@ footer {
 }
 .clientItem img {
   /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-  filter: gray;
-  /* IE5+ */
   -webkit-filter: grayscale(1);
   /* Webkit Nightlies & Chrome Canary */
+  filter: grayscale(1);
+  /* IE5+ */
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 .clientItem img:hover {
-  filter: none;
   -webkit-filter: grayscale(0);
+  filter: grayscale(0);
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
 }
@@ -850,6 +851,11 @@ p.courseDesc {
     color: #1E90FF;
   }
 
+  .carousel-caption {
+    top: 18%;
+    bottom: auto;
+  }
+
   .carousel-caption h3 {
     font-size: 50px;
     line-height: 90px;
@@ -858,6 +864,11 @@ p.courseDesc {
   .carousel-caption p {
     font-size: 30px;
     line-height: 40px;
+  }
+
+  #clients .clientItem img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
   }
 
   #social span {
@@ -962,11 +973,6 @@ p.courseDesc {
     text-align: center;
   }
 
-  #service .overlay {
-    background: rgba(30, 30, 30, 0.6);
-    padding: 20px 0 100px;
-  }
-
   #consultingPG h3, #staffingPG h3, #careerPG h3 {
     font-size: 18px;
   }
@@ -1020,8 +1026,21 @@ p.courseDesc {
     font-size: 14px;
   }
 
+  #clients .clientItem img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+
   #teamPG .teamItem {
     text-align: center;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  #contactPG span {
+    margin-right: 2px;
+  }
+  #contactPG table tr td.heading {
+    width: 28%;
   }
 }
 

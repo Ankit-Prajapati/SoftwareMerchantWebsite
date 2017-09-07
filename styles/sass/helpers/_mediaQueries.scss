@@ -36,6 +36,10 @@
     }
 
     //Carousel
+    .carousel-caption {
+        top: 18%;
+        bottom: auto;
+    }
     .carousel-caption h3 {
         font-size: 50px;
         line-height: 90px;
@@ -44,6 +48,12 @@
     .carousel-caption p {
         font-size: 30px;
         line-height: 40px;
+    }
+
+    //Clients
+    #clients .clientItem img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
     }
 
     //Footer: Social
@@ -99,14 +109,6 @@
     //Team
     #teamPG .teamItem {
         text-align: center;
-    }
-
-    //Service
-    #service {
-        .overlay {
-            background: $serviceHPOverlayForSM;
-            padding: 20px 0 100px;
-        }
     }
 
     //Consulting + Staffing + Career
@@ -178,8 +180,27 @@
         font-size: 14px;
     }
 
+    //Clients
+    #clients .clientItem img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+    }
+
     //Team
     #teamPG .teamItem {
         text-align: center;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    //Contact
+    #contactPG {
+        span {
+            margin-right: 2px;
+        }
+
+        table tr td.heading {
+            width: 28%;
+        }
     }
 }
