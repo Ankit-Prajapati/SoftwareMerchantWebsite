@@ -115,7 +115,7 @@ $(document).ready(function () {
 
 
 //-----------------------------------------------------------------------
-//Using Google Maps to show my Location
+//Using Google Maps to show Location
 //-----------------------------------------------------------------------
 $(document).ready(function () {
 
