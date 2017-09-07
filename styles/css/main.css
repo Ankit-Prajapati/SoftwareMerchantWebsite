@@ -31,7 +31,6 @@ a.pdfButton:hover {
   border: 1px solid #1E90FF;
   border-radius: 6px;
   text-decoration: none;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
 
@@ -91,7 +90,6 @@ header .navbar-brand {
 /* line 32, ../sass/layout/_navigation.scss */
 navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   color: #1E90FF;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
 
@@ -99,7 +97,6 @@ navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
   color: #1E90FF;
   background-color: rgba(0, 0, 0, 0.9);
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
 
@@ -116,8 +113,7 @@ navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:
   border: 1px solid #000000;
   border: 1px solid #000000;
   border-radius: 4px;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 102, 0.175);
-          box-shadow: 0 6px 12px rgba(0, 0, 102, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 102, 0.175);
 }
 
 /* line 57, ../sass/layout/_navigation.scss */
@@ -130,7 +126,6 @@ navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
   color: #1E90FF;
   background: none;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
 
@@ -178,7 +173,6 @@ navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:
 #contactHP a.mail {
   text-decoration: none;
   color: #FFFFFF;
-  -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 /* line 24, ../sass/layout/_footer.scss */
@@ -201,7 +195,6 @@ navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:
 #contactHP ul li a:hover {
   color: #1E90FF;
   border-bottom: 1px dotted #1E90FF;
-  -webkit-transition: all 1s;
   transition: all 1s;
   text-decoration: none;
 }
@@ -225,7 +218,6 @@ navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:
   height: 48px;
   line-height: 46px;
   border-radius: 4px;
-  -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 /* line 69, ../sass/layout/_footer.scss */
@@ -288,7 +280,6 @@ footer {
 #accordion .panel-title a:hover {
   text-decoration: none;
   color: #1E90FF;
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
@@ -373,7 +364,6 @@ footer {
 
 /* line 42, ../sass/components/_carousel.scss */
 .carousel.fades .item {
-  -webkit-transition: opacity ease-out .7s;
   transition: opacity ease-out .7s;
   left: 0;
   top: 0;
@@ -461,7 +451,6 @@ footer {
   font-size: 14px;
   border-radius: 8px;
   background-color: #FFFFFF;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
 /* line 42, ../sass/pages/_services.scss */
@@ -492,14 +481,12 @@ footer {
 
 /* line 14, ../sass/pages/_clients.scss */
 .clientsContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
   width: 100%;
   height: auto;
 }
@@ -551,7 +538,6 @@ footer {
 #contactPG a {
   text-decoration: none;
   color: #FFFFFF;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
 /* line 24, ../sass/pages/_contact.scss */
@@ -624,7 +610,6 @@ footer {
   color: #FFFFFF;
   background-color: rgba(0, 0, 0, 0.8);
   border: none;
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 /* line 89, ../sass/pages/_contact.scss */
@@ -642,7 +627,6 @@ footer {
   border: 1px solid rgba(0, 0, 0, 0.8);
   color: #FFFFFF;
   text-transform: uppercase;
-  -webkit-transition: all 1s;
   transition: all 1s;
   font-size: 24px;
 }
@@ -737,7 +721,6 @@ footer {
   text-decoration: none;
   border-bottom: 1px solid #0080FF;
   color: #0080FF;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
 
@@ -1045,4 +1028,5 @@ p.courseDesc {
     text-align: center;
   }
 }
+
 /*# sourceMappingURL=main.css.map */
